@@ -50,3 +50,6 @@ View(base.vizinhos)
 
 #gravar o resultado
 write.csv(file="lastfm-top10.csv",x=base.vizinhos[,-1])
+
+base <- read.csv(file='lastfm-top10.csv')
+View(base)
